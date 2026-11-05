@@ -1,0 +1,22 @@
+[package]
+name = "compresso-rs"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.85"
+description = "Pure Rust implementation of the Compresso codec for connectomics segmentation volumes, byte-compatible with the Python `compresso` package"
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/scalableminds/compresso-rs"
+documentation = "https://docs.rs/compresso-rs"
+keywords = ["compression", "segmentation", "connectomics", "compresso", "neuroscience"]
+categories = ["compression", "encoding", "science"]
+exclude = ["/tools", "/.github", "/fuzz", "/.gitattributes"]
+
+[lib]
+name = "compresso"
+
+[dependencies]
+
+[dev-dependencies]
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
