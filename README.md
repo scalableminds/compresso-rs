@@ -176,5 +176,4 @@ MIT. Compresso was created by Brian Matejek and the
 [Rhoana](https://github.com/VCG/compresso) team. The stream format implemented
 here is the one by William Silversmith in
 [seung-lab/compresso](https://github.com/seung-lab/compresso). This crate is an
-independent Rust implementation of that format. The connected components
-labeling is original code: it is not derived from the LGPL-licensed `cc3d.hpp`.
+independent Rust implementation of that format.
